@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HW2</string>
+    <string name="default_web_client_id">AIzaSyDYIlE2U0GcVLS336e4n9kkl6vq4Q-YKDQ</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="text">Text</string>
+    <string name="submit1">Submit</string>
 </resources>

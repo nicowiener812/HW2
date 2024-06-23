@@ -10,6 +10,9 @@ public class Message implements Serializable {
     public String Name;
     public String Text;
 
+    // No-argument constructor
+    public Message() {}
+
     public Message(String a, String n, String t) {
         Avatar = a;
         Name = n;
@@ -24,12 +27,12 @@ public class Message implements Serializable {
         ID = i;
     }
 
-    public Map<String,String> getAsMap() {
-        Map<String,String> map = new HashMap<>();
-        map.put("ID",ID);
-        map.put("Avatar",Avatar);
+    public Map<String, String> getAsMap() {
+        Map<String, String> map = new HashMap<>();
+        map.put("ID", ID);
+        map.put("Avatar", Avatar);
         map.put("Name", Name);
-        map.put("Text",Text);
+        map.put("Text", Text);
         return map;
     }
 }
